@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-nav {
+#nav {
     color: red
 }
 
@@ -13,13 +13,55 @@ nav {
 #our_story-section {
     color: green
 }
+.flexbox-container-2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.flexbox-item-1 {
+    display: flex;
+    justify-content: center
+}
+
+.flexbox-item-2 {
+    display: flex;
+    justify-content: center
+}
 
 #watch-section {
     color: darkred
 }
 
+.flexbox-item-3 {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-middle.png);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+    height: 500px;
+    
+}
+
+
+
+
 #expertise-section {
     color: fuchsia
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+    width: 50%
+
+}
+
+.child {
+    height: 600px,
+    width: 600px;
+    border: 1px;
+    flex-direction: column;
+    
 }
 
 #team-section {
