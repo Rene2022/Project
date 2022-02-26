@@ -1,5 +1,6 @@
-* {
+* { 
     margin: 0;
+    
 }
 
 header{
@@ -24,16 +25,20 @@ nav a{
     transition: 0.2s;
     font-size: 22px;
 }
-span{
-    color:rgb(69, 211, 164);
+nav > img, p{
+    display: inline;
+}
+.navlogo > p{
+    color: rgb(108, 226, 187);
+   font-family: 'Courier New', Courier;
+    margin-top:1px;
     font-size: 40px;
-    padding:1px 10px 20px 0;
 }
 
 #hero-section {
     color:aliceblue;
     text-align: center;
-    margin:130px 350px 0 350px;  
+    margin:130px 350px 0 350px;
 }
 header section >  h2{
     font-weight: bolder;
@@ -41,29 +46,24 @@ header section >  h2{
     border-bottom: 1px rgb(74, 219, 171) solid;
     border-width: 1px;
 }
+
 header section > h2, p{
-    padding:20px;
+    padding:25px;
+    margin:35px;
 }
-header button{
-    padding:10px;
-    margin:20px 0 120px 700px;
-    color: aquamarine;
-    border-color:aquamarine;
-    border-radius: 1px solid;
-   
-   
+header .learn{
+    color:aquamarine;
+    text-decoration: none
 }
+
 
 #our_story-section {
     color: green
 }
 .flexbox-container-2{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
-
 .flexbox-item-1 {
     display: flex;
     justify-content: center
@@ -134,10 +134,16 @@ footer > .footer1, .footer2, .footer3{
     padding-top:55px;
     font-size: 15px;
     font-family:system-ui;
-
 }
 .footer3 .searchbar{
     margin-top:20px;
+    
+}
+.footer3 span{
+    border:1px solid white;
+    background-color: rgb(208, 212, 216);
+    opacity: 0.5; 
+    margin-top:55px;  
 }
 .footer3 img{
     margin-top:20px;
