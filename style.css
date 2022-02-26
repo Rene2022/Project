@@ -95,7 +95,7 @@ header button{
 #expertise-section {
     color: fuchsia
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
     width: 50%
 
 }
@@ -113,10 +113,35 @@ header button{
 }
 
 #contact_client-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 5fr;
     color:lightsalmon
 }
 
+
 footer {
+    display:flex;
     background-image: url('./Images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-footer.png');
-    color: blueviolet
+    color:aliceblue;
+    justify-content: space-around;
+}
+footer > .footer1, .footer2, .footer3{
+    width:33.33%;
+    padding:20px 130px 0 130px;
+}
+.footer3 > h2{
+    padding-top:55px;
+    font-size: 15px;
+    font-family:system-ui;
+
+}
+.footer3 .searchbar{
+    margin-top:20px;
+}
+.footer3 img{
+    margin-top:20px;
+}
+.footer3 img{
+    width:30px;
 }
