@@ -11,9 +11,14 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="heronav">
-                <a href="">HOME</a>
+        <nav id="heronav">
+            <div class="navlogo">
+                <img src="./Images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/png/logo.png"
+                    alt="herologo">
+                <span>tajam</span>
+            </div>
+            <div class="navbar">
+                <a class="homelink" href="">HOME</a>
                 <a href="">ABOUT</a>
                 <a href="">EXPERTISE</a>
                 <a href="">TEAMS</a>
@@ -23,27 +28,14 @@
             </div>
         </nav>
         <section id="hero-section">
-            <div class="logo">
-                <img src="" alt="herologo">
-            </div>
-
-            <div class="heropara1">
-                <h2>We are Awesome Creative Agency</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Animi quaerat alias consequatur, cupiditate laudantium nesciunt ipsam
-                    corrupti natus accusantium excepturi error tempora pariatur adipisci.
-                    Illum accusamus similique explicabo magnam eveniet.
-                </p>
-            </div>
-            <div>
-                <h2>We are Awesome Creative Agency</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Animi quaerat alias consequatur, cupiditate laudantium nesciunt ipsam
-                    corrupti natus accusantium excepturi error tempora pariatur adipisci.
-                    Illum accusamus similique explicabo magnam eveniet.
-                </p>
-            </div>
+            <h2>We are Awesome Creative Agency</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Animi quaerat alias consequatur, cupiditate laudantium nesciunt ipsam
+                corrupti natus accusantium excepturi error tempora pariatur adipisci.<br>
+                Illum accusamus similique explicabo magnam eveniet.
+            </p>
         </section>
+        <button>LEARN MORE</button>
     </header>
     <main>
         <section id="our_story-section">our story section</section>
@@ -121,7 +113,17 @@
 
 
 
-        <section id="contact_client-section">contact / client section</section>
+        <section id="contact_client-section">contact form / happy client section</section>
+        <form>
+            <label for="name"></label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br>
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br>
+            <label for="subject"></label><br>
+            <input type="text" id="subject" name="subject" placeholder="Enter Subject"><br>
+            <input type="textarea" style="width:15px height:20px" name="message" placeholder="Enter Your Message.."
+                required><br>
+        </form>
     </main>
     <footer>footer1</footer>
 </body>

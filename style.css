@@ -2,12 +2,56 @@
     margin: 0;
 }
 
-#nav {
-    color: red
+header{
+    background-image:url('./Images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-header.png');
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding:20px 50px 0 50px;
+}
+
+nav a{
+    color: aliceblue;
+    font-family:system-ui;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding:0 10px 0 10px;
+}
+.navbar a:hover{
+    color:rgb(90, 211, 171);
+    transition: 0.2s;
+    font-size: 22px;
+}
+span{
+    color:rgb(69, 211, 164);
+    font-size: 40px;
+    padding:1px 10px 20px 0;
 }
 
 #hero-section {
-    color: blue
+    color:aliceblue;
+    text-align: center;
+    margin:130px 350px 0 350px;  
+}
+header section >  h2{
+    font-weight: bolder;
+    font-size: 30px;
+    border-bottom: 1px rgb(74, 219, 171) solid;
+    border-width: 1px;
+}
+header section > h2, p{
+    padding:20px;
+}
+header button{
+    padding:10px;
+    margin:20px 0 120px 700px;
+    color: aquamarine;
+    border-color:aquamarine;
+    border-radius: 1px solid;
+   
+   
 }
 
 #our_story-section {
