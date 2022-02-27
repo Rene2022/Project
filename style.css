@@ -30,24 +30,19 @@
     justify-content: center
 }
 
-#watch-section {
-    color: darkred
-}
 
-.flexbox-container-3 {
-    display: flex;
+.team-section {
     justify-content: center;
-    background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-middle.png);
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
     align-items: center;
-    height: 500px;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.flexbox-item-3 {
-    padding: 500px;
+.container4 {
+    display: flex;
+    height: 600px,
+    width: 600px;
 }
+
 
 
 #expertise-section {
