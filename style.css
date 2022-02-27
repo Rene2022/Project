@@ -113,7 +113,7 @@ nav > img, p{
 
 
 #expertise-section {
-    color: fuchsia
+    color: fuchsia;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 50%
@@ -121,7 +121,7 @@ nav > img, p{
 }
 
 .child {
-    height: 600px,
+    height: 600px;
     width: 600px;
     border: 1px;
     flex-direction: column;
