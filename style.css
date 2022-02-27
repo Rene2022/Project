@@ -14,9 +14,19 @@ nav {
     color: green
 }
 
-#watch-section {
-    color: darkred
+
+.team-section {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.container4 {
+    display: flex;
+    height: 600px,
+    width: 600px;
+}
+
 
 #expertise-section {
     color: fuchsia
