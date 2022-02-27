@@ -15,6 +15,20 @@ nav {
 }
 
 
+.flexbox-container-3 {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-middle.png);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    height: 500px;
+    
+}
+
+.flexbox-item-3 {
+    padding: 500px;
+
 .team-section {
     justify-content: center;
     align-items: center;
