@@ -80,37 +80,50 @@ nav > img, p{
 }
 
 #our_story-section {
-    color: green
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .flexbox-container-2{
-    display: flex;
-    justify-content: center;   
-}
-.flexbox-item-1 {
-    display: flex;
-    justify-content: center
+    padding-top: 50px;   
+    padding-bottom: 50px;
+    padding-left: 250px;
 }
 
-.flexbox-item-2 {
-    display: flex;
-    justify-content: center
+
+#our_story-section > .learn a{
+    text-decoration: none;
+    color:rgb(135, 245, 208);
+    border:1px solid;
+    padding:10px;
 }
+
+#our_story-section > .learn{
+        margin-top:55px;
+        font-family:system-ui;    
+
+}
+#our_story-section {
+            color:black;
+            justify-content: flex;
+            margin:100px 200px 0 200px;
+            line-height:1.5;
+        }
 
 #watch-section {
-    color: darkred
+        justify-content: center;
+        align-items: center;
 }
 
-.flexbox-item-3 {
+.flexbox-container-3 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-middle.png);
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    align-self: center;
     height: 500px;
-    
+    justify-content: center;
 }
-
 
 #expertise-section {
     color: fuchsia;
@@ -128,13 +141,79 @@ nav > img, p{
     
 }
 
-#team-section {
-    color: rgb(17, 12, 12);
+.child2 {
+    border-bottom: 1px solid rgb(153, 155, 158);
+    border-left:1px solid rgb(153, 155, 158);
+    border-right: 1px solid rgb(153, 155, 158);
 }
 
+.child3 {
+    border-bottom: 1px solid rgb(153, 155, 158);
+    
+}
+
+.child4 {
+    padding: 20px;
+}
+
+.child5 {
+    padding: 20px;
+    border-left:1px solid rgb(153, 155, 158);
+    border-right: 1px solid rgb(153, 155, 158);
+}
+
+.child6{
+    padding: 20px;
+}
+
+.heading1{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+#team-section {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    font-family:system-ui;
+}
+
+#team-section {
+    color:white;
+    text-align: center;
+    background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-header.png);   
+}
+
+
+.team-section1 {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    grid-template-rows: 200px;
+    column-gap: 10px;
+    padding: 100px;
+    margin-left: 250px;
+}
+
+.person1 {
+    border: 1px solid black;
+
+}
+.person2 {
+    border: 1px solid black;
+}
+.person3 {
+    border: 1px solid black;
+}
+.person4 {
+    border: 1px solid black;
+}
+
+
+
 #contact_client-section {
-  display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 
 }
 section form{
