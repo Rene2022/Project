@@ -52,18 +52,22 @@
 
 #expertise-section {
     color: fuchsia
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr
-    width: 50%
-
 }
 
-.child {
+.expertise-section1 {
+    justify-content: center;
+    align-items: center;
     height: 600px,
     width: 600px;
     border: 1px;
     flex-direction: column;
     
+}
+
+.heading1{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace ;
 }
 
 #team-section {
