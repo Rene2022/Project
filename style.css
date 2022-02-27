@@ -114,27 +114,24 @@ nav > img, p{
         }
 
 #watch-section {
-    color: darkred
+        justify-content: center;
+        align-items: center;
 }
 
 .flexbox-container-3 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-middle.png);
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    align-items: center;
     height: 500px;
-    
+    justify-content: center;
 }
 
-.expertise-section1 {
+#expertise-section {
     justify-content: center;
-    align-items: center;
-    height: 600px,
-    width: 600px;
-    border: 1px;
-    flex-direction: column;
+    
+    
     
 }
 
