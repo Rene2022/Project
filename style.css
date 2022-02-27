@@ -129,6 +129,7 @@ nav > img, p{
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding: 50px;
 }
 
 #expertise-section {
@@ -138,10 +139,12 @@ nav > img, p{
     line-height:1.5;
 }
 
+
 .expertise-section1 {
     display: grid;
     grid-template-columns: 280px 280px 280px;
     grid-template-rows: 200px;
+    padding: 20px;
 }
 
 .child1 {
@@ -160,9 +163,18 @@ nav > img, p{
     
 }
 
+.child4 {
+    padding: 20px;
+}
+
 .child5 {
+    padding: 20px;
     border-left:1px solid rgb(153, 155, 158);
     border-right: 1px solid rgb(153, 155, 158);
+}
+
+.child6{
+    padding: 20px;
 }
 
 .heading1{
