@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-nav {
+#nav {
     color: red
 }
 
@@ -12,6 +12,22 @@ nav {
 
 #our_story-section {
     color: green
+}
+.flexbox-container-2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.flexbox-item-1 {
+    display: flex;
+    justify-content: center
+}
+
+.flexbox-item-2 {
+    display: flex;
+    justify-content: center
 }
 
 
@@ -28,8 +44,25 @@ nav {
 }
 
 
+
 #expertise-section {
     color: fuchsia
+}
+
+.expertise-section1 {
+    justify-content: center;
+    align-items: center;
+    height: 600px,
+    width: 600px;
+    border: 1px;
+    flex-direction: column;
+    
+}
+
+.heading1{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace ;
 }
 
 #team-section {
