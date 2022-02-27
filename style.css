@@ -90,9 +90,6 @@ nav > img, p{
     padding-left: 250px;
 }
 
-.flexbox-item-2 {
-   
-}
 
 #our_story-section > .learn a{
     text-decoration: none;
@@ -130,9 +127,42 @@ nav > img, p{
 
 #expertise-section {
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#expertise-section {
+    color:black;
+    text-align: center;
+    margin:80px 350px 80px 350px;
+    line-height:1.5;
+}
+
+.expertise-section1 {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 200px;
+}
+
+.child1 {
+    border-bottom: 1px solid rgb(153, 155, 158);
     
+}
+
+.child2 {
+    border-bottom: 1px solid rgb(153, 155, 158);
+    border-left:1px solid rgb(153, 155, 158);
+    border-right: 1px solid rgb(153, 155, 158);
+}
+
+.child3 {
+    border-bottom: 1px solid rgb(153, 155, 158);
     
-    
+}
+
+.child5 {
+    border-left:1px solid rgb(153, 155, 158);
+    border-right: 1px solid rgb(153, 155, 158);
 }
 
 .heading1{
