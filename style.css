@@ -145,6 +145,8 @@ nav > img, p{
     grid-template-columns: 280px 280px 280px;
     grid-template-rows: 200px;
     padding: 20px;
+    margin-left: -50;
+    margin-top: 55px;
 }
 
 .child1 {
@@ -184,12 +186,47 @@ nav > img, p{
 }
 
 #team-section {
-    color: rgb(17, 12, 12);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    font-family:system-ui;
 }
 
+#team-section {
+    color:white;
+    text-align: center;
+    background-image: url(images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-header.png);   
+}
+
+
+.team-section1 {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    grid-template-rows: 200px;
+    column-gap: 10px;
+    padding: 100px;
+    margin-left: 250px;
+}
+
+.person1 {
+    border: 1px solid black;
+
+}
+.person2 {
+    border: 1px solid black;
+}
+.person3 {
+    border: 1px solid black;
+}
+.person4 {
+    border: 1px solid black;
+}
+
+
+
 #contact_client-section {
-  display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 
 }
 section form{
