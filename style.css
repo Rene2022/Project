@@ -1,13 +1,82 @@
-* {
-    margin: 0;
+* { 
+     margin: 0;  
 }
 
-#nav {
-    color: red
+header{
+    height:660px;
+    background-image:url('./Images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-header.png');
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding:20px 50px 0 50px;
+}
+
+nav a{
+    color: aliceblue;
+    font-family:system-ui;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding:0 10px 0 10px;
+}
+
+.home {
+    color:rgb(103, 206, 171);
+}
+
+.navbar a:hover{
+    color:rgb(90, 211, 171);
+    transition: 0.2s;
+    font-size: 22px;
+}
+
+nav > img, p{
+    display: inline;
+    padding:10px;
+}
+
+.navlogo > p{
+    color:rgb(118, 214, 182);
+    font-size: 35px;
+}
+.learn a:hover{
+  color:rgb(90, 211, 171);
+  transition: 0.5s;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#hero-section {  
+    color:aliceblue;
+    text-align: center;
+    margin:130px 350px 0 350px;
+}
+
+#hero-section > h2{
+    margin-top:55px;
+    margin-bottom:45px;
 }
 
 #hero-section {
-    color: blue
+    color:aliceblue;
+    text-align: center;
+    margin:130px 350px 0 350px;
+    line-height:1.5;
+}
+
+#hero-section > .learn{
+    margin-top:55px;
+    font-family:system-ui;
+}
+
+#hero-section > .learn a{
+    text-decoration: none;
+    color:rgb(135, 245, 208);
+    border:1px solid;
+    padding:10px;
+    
 }
 
 #our_story-section {
@@ -15,11 +84,8 @@
 }
 .flexbox-container-2{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
-
 .flexbox-item-1 {
     display: flex;
     justify-content: center
@@ -45,15 +111,6 @@
     
 }
 
-.flexbox-item-3 {
-    padding: 500px;
-}
-
-
-#expertise-section {
-    color: fuchsia
-}
-
 .expertise-section1 {
     justify-content: center;
     align-items: center;
@@ -71,13 +128,154 @@
 }
 
 #team-section {
-    color: yellowgreen
+    color: rgb(17, 12, 12);
 }
 
 #contact_client-section {
-    color:lightsalmon
+  display: flex;
+  justify-content: space-around;
+
+}
+section form{
+  margin-top:12px;
+  line-height:1.9; 
+  margin-left: 200px;
+ 
+
+}
+.contact-form h2{
+  font-family:system-ui;
+  font-size: 15px;
+  margin-left:200px;
+}
+input[type=text],input[type=email], textarea{
+  width:290px;
+ 
 }
 
-footer {
-    color: blueviolet
+textarea{
+  margin-top:10px;
+
 }
+input[type=submit]{
+  padding:5px 18px 5px 18px;
+  margin-bottom:40px;
+  color:aquamarine;
+  background-color: white;
+  border:2px solid aquamarine;
+  font-family:system-ui; 
+  font-weight: bold;
+  font-size: 10px;
+}
+input[type=submit]:hover{
+  font-size: larger;
+  width:300px;
+}
+.logo-1 h2{
+  font-family:system-ui;
+  font-size: 20px;
+  word-spacing: 10px;
+}
+.logo-2{
+  margin-right: 200px;
+
+}
+.logo-1{
+  margin-left: 350px;
+ 
+}
+
+.logo-1 img{
+  padding-top:25px;
+}
+
+.logo-2 img{
+  padding-top:25px;
+}
+
+
+footer{
+    display: flex;
+    background-image: url('./Images/9ab377872a0d4129a4a95bed6492f901photoshop1/photoshop/design-assets/bgk-footer.png');
+    color:aliceblue;
+    justify-content: space-between;
+}
+
+footer > .footer1,.footer2, .footer3{
+    width:33.33%;
+    padding:55px 110px 55px 110px;
+}
+
+.footer1 span{
+    color:rgba(144, 231, 202, 0.918);
+    font-size:35px;
+    font-family:system-ui;
+    padding-bottom:155px;
+}
+
+.footer1 p{
+    line-height:1.9;
+    font-family: system-ui;
+}
+
+.footer1 .footer-links{
+    margin-top:62px;
+}
+
+.footer1 .footer-links a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    font-size:10px;
+    font-family: system-ui;
+}
+
+.footer2 h3, p{
+    line-height:1.9;
+    font-family: system-ui;
+}
+
+.footer2 p{
+   padding-top:20px;
+}
+.footer3 > form {
+    padding-top:15px;
+}
+
+.footer3 img{
+    padding-top:15px;
+    width:25px;
+    padding-left:5px;
+
+}
+
+.footer3 h4{
+    font-family: system-ui;
+}
+
+.footer3 > .subscribe{
+    text-decoration: none;
+    color:aliceblue;
+    padding:20px 20px 0 20px;
+    line-height:2;
+    border-color:white;
+    border-style: solid;
+    text-align: center;
+}
+
+.footer3 span img{
+    margin-left:8px;
+    background-color: rgba(222, 228, 228, 0.705);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:1px;
+    padding-bottom:20px;
+    margin-top:55px;
+}
+
+.footer3 .copyright{
+    margin-top:30px;
+    font-family: system-ui;
+    font-size:13px;
+}
+
